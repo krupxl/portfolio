@@ -1,0 +1,9 @@
+{
+  "name": "krupal-tandel-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Krupal Tandel's portfolio site with the Cipher AI assistant, deployed on Netlify.",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krupal Tandel — IT Manager, London</title>
+<meta name="description" content="Krupal Tandel — IT Manager in London. Sole IT owner across two operating entities: identity, endpoints, security, networking and vendors for 80 users and 100+ devices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ░░ LIQUID GLASS — backdrop refraction filter ░░ -->
+<svg width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <defs>
+    <filter id="lgDistort" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.012" numOctaves="2" seed="11" result="n"></feTurbulence>
+      <feGaussianBlur in="n" stdDeviation="2.4" result="nb"></feGaussianBlur>
+      <feDisplacementMap in="SourceGraphic" in2="nb" scale="15" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+    </filter>
+  </defs>
+</svg>
+
+<!-- ░░ CIPHER MARK — reusable glyph defs ░░ -->
+<svg width="0" height="0" style="position:absolute;left:0;top:0;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <defs>
+    <linearGradient id="cgGrad" x1="14" y1="8" x2="86" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7fb0f9"></stop>
+      <stop offset="0.4" stop-color="#2f74e6"></stop>
+      <stop offset="0.72" stop-color="#1e5fd6"></stop>
+      <stop offset="1" stop-color="#34c2a6"></stop>
+    </linearGradient>
+    <filter id="cgGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4"></feGaussianBlur>
+    </filter>
+    <g id="cgFull">
+      <g filter="url(#cgGlow)" opacity="0.72">
+        <circle cx="50" cy="50" r="31" fill="none" stroke="url(#cgGrad)" stroke-width="9" stroke-linecap="round" stroke-dasharray="142 220" transform="rotate(49 50 50)"></circle>
+        <circle cx="50" cy="50" r="16" fill="none" stroke="url(#cgGrad)" stroke-width="7" stroke-linecap="round" stroke-dasharray="46 220" transform="rotate(205 50 50)"></circle>
+      </g>
+      <circle cx="50" cy="50" r="31" fill="none" stroke="url(#cgGrad)" stroke-width="9" stroke-linecap="round" stroke-dasharray="142 220" transform="rotate(49 50 50)"></circle>
+      <circle cx="50" cy="50" r="16" fill="none" stroke="url(#cgGrad)" stroke-width="7" stroke-linecap="round" stroke-dasharray="46 220" transform="rotate(205 50 50)"></circle>
+      <circle cx="70.5" cy="27" r="5.2" fill="#5fd0bb"></circle>
+    </g>
+    <g id="cgSimple">
+      <g filter="url(#cgGlow)" opacity="0.68">
+        <circle cx="50" cy="50" r="31" fill="none" stroke="url(#cgGrad)" stroke-width="12" stroke-linecap="round" stroke-dasharray="142 220" transform="rotate(49 50 50)"></circle>
+      </g>
+      <circle cx="50" cy="50" r="31" fill="none" stroke="url(#cgGrad)" stroke-width="12" stroke-linecap="round" stroke-dasharray="142 220" transform="rotate(49 50 50)"></circle>
+    </g>
+  </defs>
+</svg>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand"><span class="nav__brand-k">Krupal</span> <span class="nav__brand-t">Tandel</span></a>
+    <div class="nav__links">
+      <a href="#story">Story</a>
+      <a href="#path">Path</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#ahead">Roadmap</a>
+      <a href="#contact" class="btn btn--primary btn--sm">Get in touch</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="top" class="hero">
+  <div class="hero__grid">
+
+    <div class="hero__main">
+      <div class="hero__eyebrow-row">
+        <span class="eyebrow-pill">IT Manager · London</span>
+      </div>
+
+      <h1>I keep critical systems stable, secure, and well documented.</h1>
+      <p class="hero__lede">Sole IT owner across two operating entities. The interesting work is hardening operations and tightening controls – building a stack that's secure by default, not by reaction.</p>
+
+      <!-- ░░ CIPHER — hero ask bar (scroll anchor) ░░ -->
+      <div class="ask-bar-wrap" id="heroAskAnchor">
+        <div class="ask-bar" id="heroAskBar" role="button" tabindex="0" aria-label="Ask Cipher about Krupal">
+          <div class="ask-bar__icon"><svg width="21" height="21" viewBox="0 0 100 100" fill="none" style="overflow:visible"><use href="#cgFull"></use></svg></div>
+          <span class="ask-bar__placeholder">Ask Cipher about Krupal&#8230;</span>
+          <span class="ask-bar__badge">AI</span>
+          <button class="ask-bar__send" type="button" tabindex="-1" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path></svg></button>
+        </div>
+        <div class="ask-bar__hint">
+          <span>A live assistant trained on this portfolio · try</span>
+          <button class="ask-bar__suggest" type="button" data-q="What does Krupal do?">&ldquo;What does Krupal do?&rdquo;</button>
+        </div>
+      </div>
+
+      <div class="hero__meta">
+        <div class="meta-item"><span class="meta-item__label">ROLE</span><span class="meta-item__value">IT Manager</span></div>
+        <div class="meta-item"><span class="meta-item__label">BASED</span><span class="meta-item__value">London, UK</span></div>
+        <div class="meta-item"><span class="meta-item__label">SCOPE</span><span class="meta-item__value">80 users · 100+ endpoints</span></div>
+        <div class="badge-open" id="openToWorkBadge">
+          <span class="badge-open__dot"></span>
+          <span>Open to IT leadership roles</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- status card -->
+    <div class="status-card">
+      <div class="status-card__head">
+        <span class="eyebrow">CURRENT ROLE</span>
+        <span class="status-card__live"><span class="status-card__live-dot"></span><span>OPERATIONAL</span></span>
+      </div>
+      <div class="status-card__rows">
+        <div class="status-row"><span>Users supported</span><span>80</span></div>
+        <div class="status-row"><span>Endpoints</span><span>100+</span></div>
+        <div class="status-row"><span>Intune coverage</span><span>100%</span></div>
+        <div class="status-row"><span>On-prem AD</span><span class="status-row__teal">Retired</span></div>
+        <div class="status-row"><span>IT owner</span><span>Sole, since '24</span></div>
+        <div class="status-row"><span>Tenure</span><span>Since 2022</span></div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<!-- ABOUT / STORY -->
+<section id="story" class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">About</span>
+      <span class="section__index">01 / 07</span>
+    </div>
+    <div class="story__grid">
+      <h2 class="story__heading">I build systems that make technology reliable, secure, and easier to run.</h2>
+      <div class="story__body">
+        <p>My foundation is in engineering. It taught me to think in structures, constraints, and repeatable processes. That mindset led me into IT, where I found the opportunity to turn complexity into clear, dependable systems.</p>
+        <p>I began that journey at 1Rivet, a US-based IT consultancy, where I moved from operations into IT and DevOps. I worked across Microsoft 365 and SharePoint administration, tenant migrations, and delivery pipeline automation using Jenkins and Ansible. That was where a core principle of my work became fixed: if a task repeats, it should be systemised.</p>
+        <p>In 2019, I moved to London to complete an MSc in Information Systems. My dissertation focused on early diabetic retinopathy detection using TensorFlow in Google Colab. It gave me hands-on experience applying machine learning to a real clinical problem, with a focus on detection at a stage where treatment can still make a difference.</p>
+        <p>I joined Hydro Cleansing in February 2022 as an IT Technician. In June 2024, I stepped into full ownership of the IT function. Today I manage identity and access, endpoints, security, networking, vendors, and day-to-day support for around 80 users and more than 100 devices. I run the function end to end, with an emphasis on clarity, documentation, stability, and systems that work quietly in the background.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE / PATH -->
+<section id="path" class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">The path</span>
+      <span class="section__index">02 / 07</span>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline__date">2018–2019</div>
+      <div class="timeline__item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__org">1RIVET · INDIA</div>
+        <h3>DevOps &amp; Enterprise Admin, Associate</h3>
+        <p>Broke into IT from operations. Supported CI/CD pipelines with Jenkins, Ansible, Git and Nexus; handled M365 provisioning and SharePoint admin at scale; trained 50+ interns on source-control fundamentals.</p>
+      </div>
+
+      <div class="timeline__date">2019–2021</div>
+      <div class="timeline__item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__org">UNIVERSITY OF WEST LONDON · UK</div>
+        <h3>MSc Information Systems (2:1)</h3>
+        <p>Moved to London and studied through Covid. My dissertation trained a TensorFlow model in Google Colab to detect diabetic retinopathy early – my first real, hands-on machine-learning project, years before the current AI wave.</p>
+      </div>
+
+      <div class="timeline__date">Feb 2022</div>
+      <div class="timeline__item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__org">HYDRO CLEANSING · UK</div>
+        <h3>IT Technician</h3>
+        <p>Joined on a Graduate visa. Delivered L1–L3 support across hardware, software, and M365, and took on Azure AD and Intune administration. Earned employer-sponsored Skilled Worker status in 2023 as my scope grew.</p>
+      </div>
+
+      <div class="timeline__date timeline__date--current">Jun 2024 – now</div>
+      <div class="timeline__item timeline__item--current">
+        <span class="timeline__dot timeline__dot--current"></span>
+        <div class="timeline__org timeline__org--current">HYDRO CLEANSING · UK</div>
+        <h3>IT Manager</h3>
+        <p>When my manager left, I took the whole function. I own infrastructure, identity, security, and endpoint management across two operating entities, running a fully cloud-native estate on Entra and Intune. Delivered Cyber Essentials Plus solo and migrated the company to a new phone system. Also manage vendors, support developers, and line-manage a small team across IT, design and social media.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SELECTED WORK -->
+<section id="work" class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">Selected work</span>
+      <span class="section__index">03 / 07</span>
+    </div>
+
+    <div class="work-feature">
+      <div>
+        <div class="work-feature__eyebrow">FEATURED · TELEPHONY · 2026</div>
+        <h3>Migrated telephony to RingCentral with zero downtime</h3>
+        <p>Moved the business off an unreliable phone system onto RingCentral without a single minute of downtime – and gave operations a platform they can finally count on.</p>
+        <div class="tags">
+          <span class="tag">Yay → RingCentral</span>
+          <span class="tag">Zero downtime</span>
+        </div>
+      </div>
+      <div class="work-feature__stat">
+        <div class="work-feature__stat-num">99.999%</div>
+        <div class="work-feature__stat-label">CALL UPTIME</div>
+      </div>
+    </div>
+
+    <div class="work-grid">
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">SECURITY · 2026</div>
+        <h3>Delivered Cyber Essentials Plus certification</h3>
+        <p>Took the organisation through Cyber Essentials Plus – the audited tier – and passed the hands-on assessment across the estate. Underneath it: Conditional Access, MFA enforcement, exception handling and break-glass accounts, all hardened, documented and audit-ready.</p>
+        <div class="tags">
+          <span class="tag tag--teal">Cyber Essentials Plus</span>
+          <span class="tag">Conditional Access</span>
+          <span class="tag">MFA</span>
+          <span class="tag">Device hardening</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">IDENTITY &amp; ENDPOINTS · 2022</div>
+        <h3>Modernised identity and unified sign-on across the estate</h3>
+        <p>Retired on-prem Active Directory in practice and moved 100% of the Windows estate, plus ~30 mobile devices, onto Microsoft Intune with Autopilot. Then unified sign-on across every cloud app – Microsoft 365, Google Workspace and Apple work accounts – as Google admin alongside Azure AD: one identity, one set of controls.</p>
+        <div class="tags">
+          <span class="tag">Azure AD</span>
+          <span class="tag">Intune</span>
+          <span class="tag">SSO</span>
+          <span class="tag">Google Workspace</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">NETWORKING · ONGOING</div>
+        <h3>Own and evolve the UniFi network stack</h3>
+        <p>Run the full UniFi estate – access points, firewall rules, VLANs and segmentation across sites – and improve it incrementally as the business grows, keeping the network fast, segmented and reliable.</p>
+        <div class="tags">
+          <span class="tag">UniFi</span>
+          <span class="tag">VLANs / firewall</span>
+          <span class="tag">Segmentation</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">AUTOMATION · ONGOING</div>
+        <h3>Made joiner–mover–leaver a repeatable system</h3>
+        <p>Onboarding, offboarding, and access provisioning turned into SOPs and PowerShell-backed playbooks – the right access granted and revoked to a standard, documented, and no longer dependent on any one person.</p>
+        <div class="tags">
+          <span class="tag">Onboarding / offboarding</span>
+          <span class="tag">PowerShell</span>
+          <span class="tag">Access provisioning</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">TOOLING · ONGOING</div>
+        <h3>Built the costing model behind our service-pricing app</h3>
+        <p>Built the costing calculator in Excel – working with AI to get the logic right – to price the business's services. It worked well enough that the development team rebuilt it into an internal app and integrated it with Claude.</p>
+        <div class="tags">
+          <span class="tag">Excel</span>
+          <span class="tag">Costing model</span>
+          <span class="tag tag--blue">Claude</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">MIGRATION · 2018</div>
+        <h3>Ran Microsoft 365 tenant migrations at scale</h3>
+        <p>At 1Rivet, supported tenant-to-tenant moves across Microsoft 365 – mailboxes, SharePoint, OneDrive and identity – alongside provisioning and licence administration for a large user base, kept controlled and documented.</p>
+        <div class="tags">
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">Tenant migration</span>
+          <span class="tag">SharePoint</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow">VENDORS &amp; COST · ONGOING</div>
+        <h3>Took control of vendors, licensing and IT spend</h3>
+        <p>Own procurement, supplier relationships, renewals and licence management for core IT services across two entities – negotiating contracts and making the cost decisions, with spend kept lean and accountable.</p>
+        <div class="tags">
+          <span class="tag">Procurement</span>
+          <span class="tag">Licensing</span>
+          <span class="tag">Vendor management</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__eyebrow work-card__eyebrow--teal">LEADERSHIP · 2024</div>
+        <h3>Stepped up to lead IT and a cross-functional team</h3>
+        <p>When my manager left in June 2024, I took the entire IT function for two operating entities – infrastructure, identity, security, networking, vendors and support – with no gap in service. I also began line-managing a small team across design, social media and IT admin, and supporting the development team. I also run onboarding trainings for new starters.</p>
+        <div class="tags">
+          <span class="tag">Team leadership</span>
+          <span class="tag">80 users</span>
+          <span class="tag">Two entities</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">Skills &amp; tools</span>
+      <span class="section__index">04 / 07</span>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Cloud &amp; Identity</h3>
+        <div class="pills">
+          <span class="pill">Azure AD</span>
+          <span class="pill">Microsoft 365</span>
+          <span class="pill">Exchange Online</span>
+          <span class="pill">SharePoint</span>
+          <span class="pill">Teams</span>
+          <span class="pill">Conditional Access</span>
+          <span class="pill">Google Workspace</span>
+          <span class="pill">SSO</span>
+          <span class="pill">Apple work accounts</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Endpoint Management</h3>
+        <div class="pills">
+          <span class="pill">Intune</span>
+          <span class="pill">Autopilot</span>
+          <span class="pill">Compliance policies</span>
+          <span class="pill">Config profiles</span>
+          <span class="pill">Win / Android / iOS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Security &amp; Compliance</h3>
+        <div class="pills">
+          <span class="pill">Cyber Essentials Plus</span>
+          <span class="pill">Baseline hardening</span>
+          <span class="pill">Access control</span>
+          <span class="pill">ISC2 CC</span>
+          <span class="pill">Audit-ready docs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Infrastructure &amp; Networking</h3>
+        <div class="pills">
+          <span class="pill">Azure Windows servers</span>
+          <span class="pill">AWS</span>
+          <span class="pill">Multi-cloud</span>
+          <span class="pill">UniFi</span>
+          <span class="pill">VLANs &amp; firewall</span>
+          <span class="pill">Wi-Fi</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Automation &amp; AI</h3>
+        <div class="pills">
+          <span class="pill">PowerShell</span>
+          <span class="pill">Git</span>
+          <span class="pill">Jenkins / Ansible</span>
+          <span class="pill">TensorFlow</span>
+          <span class="pill">Claude</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Ways of working</h3>
+        <div class="pills">
+          <span class="pill">SOPs &amp; playbooks</span>
+          <span class="pill">Vendor management</span>
+          <span class="pill">Jira</span>
+          <span class="pill">Stakeholder management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHERE I'M HEADING (dark) -->
+<section id="ahead" class="ahead">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper eyebrow--teal">Where I'm heading: security &amp; governance</span>
+      <span class="section__index section__index--dark">05 / 07</span>
+    </div>
+    <div class="ahead__intro">
+      <h2>Heading into security architecture.</h2>
+      <p>I own a cloud-native Microsoft estate end to end – Entra ID, Intune, Conditional Access, Exchange Online – and delivered Cyber Essentials Plus as sole IT owner. I'm now moving deliberately into security architecture and governance, building toward the credentials and depth to own a security function.</p>
+    </div>
+
+    <div class="ahead-grid">
+      <div class="ahead-card">
+        <div class="ahead-card__eyebrow">01 · IDENTITY &amp; ACCESS</div>
+        <h3>Identity-first security</h3>
+        <p>Deepening identity and access governance across the Microsoft stack – Conditional Access, least privilege, auditable controls. (SC-300, booked August.)</p>
+      </div>
+      <div class="ahead-card">
+        <div class="ahead-card__eyebrow">02 · ARCHITECTURE</div>
+        <h3>Security by design</h3>
+        <p>Moving from operating the estate to architecting it – threat modelling, defence in depth, designing controls rather than just running them. (SC-100, CISSP.)</p>
+      </div>
+      <div class="ahead-card">
+        <div class="ahead-card__eyebrow">03 · GOVERNANCE</div>
+        <h3>Risk &amp; compliance</h3>
+        <p>Building toward GRC ownership – frameworks, audit, and the leadership side of keeping an organisation secure. (CISM horizon.)</p>
+      </div>
+    </div>
+    <p class="ahead__footnote">My direction is to own a security function end to end – the architecture, the governance, and the risk decisions behind a stack that stays safe and well run.</p>
+  </div>
+</section>
+
+<!-- EDUCATION & CREDENTIALS -->
+<section class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">Education &amp; credentials</span>
+      <span class="section__index">06 / 07</span>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-col">
+        <div class="edu-row">
+          <div><div class="edu-row__title">MSc Information Systems</div><div class="edu-row__sub">University of West London · 2:1</div></div>
+          <span class="edu-row__year">2021</span>
+        </div>
+        <div class="edu-row">
+          <div><div class="edu-row__title">BEng Mechanical Engineering</div><div class="edu-row__sub">Gujarat Technological University</div></div>
+          <span class="edu-row__year">2018</span>
+        </div>
+      </div>
+      <div class="edu-col">
+        <div class="edu-row">
+          <div><div class="edu-row__title">ISC2 Certified in Cybersecurity</div><div class="edu-row__sub">Foundational security certification</div></div>
+          <span class="edu-row__year edu-row__year--teal">CC</span>
+        </div>
+        <div class="edu-row">
+          <div><div class="edu-row__title">Cyber Essentials Plus</div><div class="edu-row__sub">Audited certification · achieved 2026</div></div>
+          <span class="edu-row__year edu-row__year--teal">CE+</span>
+        </div>
+        <div class="edu-row">
+          <div><div class="edu-row__title">Microsoft SC-300</div><div class="edu-row__sub">Identity &amp; Access Administrator Associate</div></div>
+          <span class="edu-row__progress"><span class="edu-row__progress-dot"></span>In progress</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="section__inner">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--upper">Contact</span>
+      <span class="section__index">07 / 07</span>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <h2 class="contact__heading">Let's talk.</h2>
+        <p class="contact__lede">I build and secure systems, and I own the result. I'm heading into security architecture and governance – let's talk if that's the kind of person you need.</p>
+        <div class="contact__actions">
+          <a href="mailto:k@tandel.uk" class="btn btn--primary">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 6L2 7"></path></svg>
+            Email me
+          </a>
+          <a href="https://linkedin.com/in/krupaltandel" target="_blank" rel="noopener" class="btn btn--secondary">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card__row"><span class="eyebrow">EMAIL</span><span class="contact-card__value">k@tandel.uk</span></div>
+        <div class="contact-card__row"><span class="eyebrow">LINKEDIN</span><span class="contact-card__value">in/krupaltandel</span></div>
+        <div class="contact-card__row"><span class="eyebrow">LOCATION</span><span class="contact-card__value">London, United Kingdom</span></div>
+        <div class="ask-cipher-first" id="askCipherFirst" role="button" tabindex="0">
+          <div class="ask-cipher-first__icon"><svg width="20" height="20" viewBox="0 0 100 100" fill="none" style="overflow:visible"><use href="#cgFull"></use></svg></div>
+          <div>
+            <span class="ask-cipher-first__title">Ask Cipher first</span>
+            <span class="ask-cipher-first__sub">Get a quick answer before you write</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <span class="footer__mark"><span class="footer__mark-k">K</span><span class="footer__mark-t">T</span></span>
+    <span class="footer__copy">© 2026 · Built in London</span>
+  </div>
+</footer>
+
+<!-- ░░ CIPHER — liquid-glass footer ask dock (sticks once the hero bar scrolls away) ░░ -->
+<div class="cipher-dock" id="cipherDock" role="button" tabindex="0" aria-label="Ask Cipher about Krupal" hidden>
+  <span class="cipher-dock__icon"><svg width="24" height="24" viewBox="0 0 100 100" fill="none" style="overflow:visible"><use href="#cgFull"></use></svg></span>
+  <span class="cipher-dock__label">Ask Cipher about Krupal&#8230;</span>
+  <span class="cipher-dock__badge">AI</span>
+  <span class="cipher-dock__send"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path></svg></span>
+</div>
+
+<!-- ░░ CIPHER — chat panel (floating, draggable) ░░ -->
+<div class="cipher-wrap" id="cipherWrap" hidden>
+  <div class="cipher-card" id="cipherCard">
+    <div class="cipher-inner">
+
+      <!-- header (drag handle) -->
+      <div class="cipher-header" id="cipherHeader">
+        <span class="cipher-grip" aria-hidden="true">
+          <span><span></span><span></span></span>
+          <span><span></span><span></span></span>
+          <span><span></span><span></span></span>
+        </span>
+        <div class="cipher-avatar"><svg width="22" height="22" viewBox="0 0 100 100" fill="none" style="overflow:visible"><use href="#cgFull"></use></svg></div>
+        <div class="cipher-title">
+          <span class="cipher-title__name">Cipher</span>
+          <span class="cipher-title__role">PORTFOLIO ASSISTANT</span>
+        </div>
+        <span class="cipher-online"><span class="cipher-online__dot"></span>online</span>
+        <button class="cipher-icon-btn" id="cipherReset" type="button" title="New chat" aria-label="New chat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"></path><path d="M21 3v5h-5"></path></svg></button>
+        <button class="cipher-icon-btn" id="cipherMinimize" type="button" title="Minimise" aria-label="Minimise"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path></svg></button>
+      </div>
+
+      <!-- messages -->
+      <div class="cipher-messages cipher-scroll" id="cipherMessages"></div>
+
+      <!-- composer -->
+      <div class="cipher-composer">
+        <div class="cipher-chips" id="cipherChips">
+          <span class="cipher-chips__label">SUGGESTED</span>
+          <div class="cipher-chips__list" id="cipherChipsList"></div>
+        </div>
+        <div class="cipher-composer__row">
+          <input class="cipher-input" id="cipherInput" placeholder="Ask Cipher about Krupal…" autocomplete="off">
+          <button class="cipher-send" id="cipherSend" type="button" aria-label="Send"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path></svg></button>
+        </div>
+        <div class="cipher-composer__foot">Cipher answers from Krupal's portfolio · may be imperfect</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
