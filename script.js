@@ -40,6 +40,7 @@
   var state = {
     cipherOpen: false,
     scrolled: false,
+    nearAskFirst: false,
     busy: false,
     msgs: [introTurn()],
     asked: [],
@@ -207,7 +208,7 @@
 
   // ── Open / close ──
   function updateDockVisibility() {
-    dockEl.hidden = !(state.scrolled && !state.cipherOpen);
+    dockEl.hidden = !(state.scrolled && !state.cipherOpen && !state.nearAskFirst);
   }
   function openCipher() {
     state.cipherOpen = true;
@@ -361,6 +362,23 @@
     }, { passive: true });
   }
 
+  // ── Hide the footer dock once the inline "Ask Cipher first" CTA is in view ──
+  function setNearAskFirst(p) {
+    if (p !== state.nearAskFirst) {
+      state.nearAskFirst = p;
+      updateDockVisibility();
+    }
+  }
+  function initAskFirstWatch() {
+    if (!askCipherFirstEl) return;
+    if (typeof IntersectionObserver !== 'undefined') {
+      var io = new IntersectionObserver(function (entries) {
+        setNearAskFirst(entries[0].isIntersecting);
+      }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
+      io.observe(askCipherFirstEl);
+    }
+  }
+
   // ── Wiring ──
   function bindActivate(el, fn) {
     if (!el) return;
@@ -394,4 +412,5 @@
 
   render();
   initScrollWatch();
+  initAskFirstWatch();
 })();
