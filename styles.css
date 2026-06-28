@@ -195,7 +195,7 @@ h1,h2,h3,p { margin:0; }
 /* ── Footer ────────────────────────────────────────────── */
 .footer { border-top:1px solid #e1e7ee; padding:36px 0; }
 .footer__inner { max-width:1080px; margin:0 auto; padding:0 40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; }
-.footer__mark { font-family:'Gochi Hand',cursive; font-size:32px; line-height:1; color:#0d1216; }
+.footer__mark { height:36px; width:auto; display:block; }
 .footer__copy { font-family:'IBM Plex Mono',monospace; font-size:12px; color:#aab6c4; }
 
 /* ── Cipher footer dock ────────────────────────────────── */
